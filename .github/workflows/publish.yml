@@ -2,12 +2,11 @@ name: Generate a build and push to another branch
 
 on:
   push:
-    branches:
-      - master
+    branches: [build]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Build and Push
     steps:
       - name: git-checkout
