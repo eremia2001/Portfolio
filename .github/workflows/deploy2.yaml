@@ -26,7 +26,7 @@ jobs:
         cache: 'npm'
 
     - run: npm i
-    - run: npm run build
+    - run: npm run build"""
     - name: Push
       uses: s0/git-publish-subdir-action@develo
       env:
