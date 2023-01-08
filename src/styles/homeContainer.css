@@ -146,11 +146,11 @@
 
     }
 
-    @media (min-width:2560px) {
+    @media (min-width:2000px) {
 
         .heroSection
         {
-            padding: 20em;
+            padding:10em;
         }
 
     }

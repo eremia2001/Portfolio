@@ -79,6 +79,7 @@
         overflow: hidden;
         justify-content: center;
         align-items:center;
+
         
     }
     .nav
@@ -103,13 +104,16 @@
             align-items: center;
             width: 8vw;
         }
-        .lineBot
-        {
-            margin-bottom: 2vw;
-        }
+
+    }
+    @media screen and (min-width: 2000px){
         .lineTop
         {
-            margin-top: 2vw;
+            margin-top: 10vw;
+        }
+        .lineBot
+        {
+            margin-bottom: 10vw;
         }
     }
 

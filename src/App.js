@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import ContactBar from './components/ContactBar';
 import Home from './context/Home';
 import About from './context/About';
+import Projects from './context/Projects';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <ContactBar />
+      <Projects />
     </div>
   );
 }

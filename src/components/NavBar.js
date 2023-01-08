@@ -1,6 +1,7 @@
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 import RifatLogo from '../media/Logo.png';
 import '../styles/navbar.css';
+import horLine from '../media/LineHorizontal.png';
 
 function NavBar() {
   return (
@@ -19,7 +20,7 @@ function NavBar() {
               <Nav.Link href="#about">
                 <p className="nav-menu">Über mich</p>
               </Nav.Link>
-              <Nav.Link>
+              <Nav.Link href="#projects">
                 <p className="nav-menu">Projekte</p>
               </Nav.Link>
               <Nav.Link>
@@ -37,21 +38,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-/*
-      <Navbar variant="dark" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
-
-
-*/

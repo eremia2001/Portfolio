@@ -11,8 +11,12 @@ function SideMenu() {
         <Nav.Link className="side-menu" href="#home">
           Home
         </Nav.Link>
-        <Nav.Link className="side-menu-active">Über mich</Nav.Link>
-        <Nav.Link className="side-menu">Projekte</Nav.Link>
+        <Nav.Link href="#about" className="side-menu-active">
+          Über mich
+        </Nav.Link>
+        <Nav.Link href="#projects" className="side-menu">
+          Projekte
+        </Nav.Link>
         <Nav.Link className="side-menu">Leistungen</Nav.Link>
         <Nav.Link className="side-menu">Kontakt</Nav.Link>
         <Nav.Item></Nav.Item>

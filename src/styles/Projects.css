@@ -1,0 +1,10 @@
+.Projects
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.projectContainer
+{
+    flex: 1;
+}
