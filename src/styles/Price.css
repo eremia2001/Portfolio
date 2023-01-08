@@ -1,0 +1,11 @@
+.Price
+{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.priceContainer
+{
+    flex: 1;
+}

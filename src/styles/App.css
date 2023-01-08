@@ -5,7 +5,9 @@
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
+  user-select: none;
 }
+
 
 .primaryColor {
   color: #64ffda;

@@ -26,6 +26,10 @@
         justify-content:center;
         align-items: center;
     }
+    .nav:hover
+    {
+        background-color: red;
+    }
 
     .side-menu-active
     {

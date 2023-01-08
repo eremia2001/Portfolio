@@ -7,6 +7,7 @@ import ContactBar from './components/ContactBar';
 import Home from './context/Home';
 import About from './context/About';
 import Projects from './context/Projects';
+import Price from './context/Price';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <ContactBar />
       <Projects />
+      <Price />
     </div>
   );
 }

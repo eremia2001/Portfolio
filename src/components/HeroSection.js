@@ -1,4 +1,5 @@
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
+import ActionButton from './ActionButton';
 
 function HeroSection() {
   return (
@@ -9,6 +10,7 @@ function HeroSection() {
           <p className="primaryColor title bold">Eremiya Rifat</p>
           <h4 className="text-white bold biggerNormalText">Ich bin</h4>
           <p className="primaryColor bigTitle bold md-display-1">Webdesigner</p>
+          <ActionButton />
         </Col>
       </Row>
     </div>

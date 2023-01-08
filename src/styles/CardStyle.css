@@ -1,0 +1,57 @@
+.cardContainer
+{
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    height: 20vw;
+    padding: 4em;
+    color: white;
+    gap: 2vw;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(108, 119, 123, 0.325) 0%, rgba(45, 52, 54, 0) 100%);
+    position: relative;
+    border-radius: 60px;
+    border: 1px solid;
+    transition:0.5s;
+
+
+}
+.cardContainer:hover
+{
+    transform: scale(1.05);
+}
+.contentContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+.cardImg
+{
+}
+.cardTitle
+{
+}
+.cardInfo
+{
+    font-size: 0.8vw;
+}
+.linkPage
+{
+    color: #41CAA9;
+    margin: 0;
+}
+.linkPage a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+.cardLine
+{
+    width: 7em;
+}
+.githubLink
+{
+    position: absolute;
+    right: 3em;
+    bottom: 0.5em;
+}

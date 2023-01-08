@@ -4,8 +4,28 @@
     display: flex;
     flex-direction: row;
 }
+.projectsTitle
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    flex: 1;
+}
 
 .projectContainer
 {
     flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cardElementContainer
+{
+    display: flex;
+    flex: 1;
+    margin-left: 4vw;
+    justify-content: flex-start;
+    gap: 2vw;
+    
 }

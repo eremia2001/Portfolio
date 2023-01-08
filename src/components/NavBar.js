@@ -23,7 +23,7 @@ function NavBar() {
               <Nav.Link href="#projects">
                 <p className="nav-menu">Projekte</p>
               </Nav.Link>
-              <Nav.Link>
+              <Nav.Link href="#price">
                 <p className="nav-menu">Leistungen</p>
               </Nav.Link>
               <Nav.Link>

@@ -10,7 +10,7 @@ import skillImage2 from '../media/skillImageVert.png';
 function About() {
   return (
     <div className=" About " id="about">
-      <SideMenu />
+      <SideMenu page="about" />
       <div className="aboutContainer">
         <div className="phoneTitle">
           <img src={horLine} className="horLine2" />
