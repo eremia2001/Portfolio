@@ -8,7 +8,7 @@ function NavBar() {
       <Navbar variant="dark" expand="lg">
         <Container fluid className="NavContainer">
           <Navbar.Brand>
-            <img src={RifatLogo} />
+            <img src={RifatLogo} className="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
@@ -16,7 +16,7 @@ function NavBar() {
             className="justify-content-end"
           >
             <Nav className="navHeader">
-              <Nav.Link>
+              <Nav.Link href="#about">
                 <p className="nav-menu">Über mich</p>
               </Nav.Link>
               <Nav.Link>

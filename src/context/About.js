@@ -9,7 +9,7 @@ import verLine from '../media/verticalLine.png';
 import skillImage2 from '../media/skillImageVert.png';
 function About() {
   return (
-    <div className=" About ">
+    <div className=" About " id="about">
       <SideMenu />
       <div className="aboutContainer">
         <div className="phoneTitle">
@@ -18,8 +18,8 @@ function About() {
         </div>
         <div className="imageContainer">
           <img src={portrait} className="portraitImage" />
-          <img src={verLine} className="verLine" />
         </div>
+        <img src={verLine} className="verLine" />
 
         <div className="content">
           <div className="titleContainer">

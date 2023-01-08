@@ -7,17 +7,15 @@
     {
         display: none;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         width: 8vw; 
-    }
+          }
 
 
     .vertLine
     {
-        margin-left: 5vw;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
+        flex:1
     }
     .nav
     {
@@ -25,7 +23,8 @@
         font-weight: bold;
         font-size: 1vw;
         flex:1;
-        justify-content:space-evenly;
+        justify-content:center;
+        align-items: center;
     }
 
     .side-menu-active
@@ -48,17 +47,26 @@
     {
         font-size: 2.5vw;
     }
+    .lineBot
+    {
+        margin-bottom: 5vw;
+    }
+    .lineTop
+    {
+        margin-top: 5vw;
+    }
 
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1024px){
     .nav
     {
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
     .SideMenu
     {
         width: 15vw;
+        
     }
 
 }
@@ -67,19 +75,42 @@
 
     .SideMenu
     {
-        width: 9vw;
+        width: 12vw;
+        overflow: hidden;
         justify-content: center;
+        align-items:center;
+        
     }
     .nav
     {
         font-size: 1.2em;
+        justify-content: center;
+        padding: 0;
+        flex: 1;
+        align-items: center;
+        
     }
     .vertLine
     {
-        margin-left: 3vw;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+
+        flex: 1;
     }
  
+    @media screen and (min-width: 1440px){
+
+        .SideMenu
+        {
+            align-items: center;
+            width: 8vw;
+        }
+        .lineBot
+        {
+            margin-bottom: 2vw;
+        }
+        .lineTop
+        {
+            margin-top: 2vw;
+        }
+    }
 
 }

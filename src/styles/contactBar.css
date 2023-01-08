@@ -35,8 +35,21 @@
   }
 }
 
-@media screen and (min-width: 961px){ 
+@media screen and (min-width: 1024px){ 
   .socialMediaContainer
   {
+    display: flex;
   }
 }
+
+@media screen and (min-width: 1440px){ 
+  .socialIconContainer
+  {
+    width: 12vw;
+  }
+  .socialMediaContainer
+  {
+    gap: 10px;
+  }
+}
+

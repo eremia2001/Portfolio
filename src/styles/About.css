@@ -10,7 +10,6 @@
         flex-direction: row;
         justify-content: center;
         position: relative;
-        overflow:visible;
     }
 
 
@@ -61,15 +60,15 @@
     }
     .aboutMeText
     {
-        padding: 3vh 2vw;
+        padding: 2vh 2vw;
         font-family: Poppins;
-        font-size: 4vw;
+        font-size: 3.58w;
         text-align: center;
     }
     .portraitImage
     {
         margin:  0;
-        max-width: 70vw;
+        max-width: 50vw;
     }
 
     .horLine2
@@ -79,7 +78,7 @@
 
     .skillImage
     {
-        width: 90vw;
+        width: 60vw;
     }
     .verLine
     {
@@ -151,6 +150,7 @@
 
     .reactLogo2
     {
+        width: 20vw;
         display: block;
         position: absolute;
         bottom: 0;
@@ -184,9 +184,13 @@
     .content
     {
     }
+    .reactLogo2
+    {
+        width: 15vw;
+    }
 }
 
-@media screen and (min-width: 1030px){
+@media screen and (min-width: 1024px){
 
     .textContainer
     {
@@ -195,12 +199,12 @@
     }
     .aboutMeText
     {
-        font-size: 1.5vw;
-        padding: 2vh 0;
+        font-size: 1.2vw;
+        padding: 2vh 3vw;
     }
     .aboutTitle
     {
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .content
     {
@@ -211,10 +215,11 @@
     {
         flex-basis: 2vw ;
     }
-    .aboutContainer
+    .portraitImage
     {
-        
+        width: 20vw;
     }
+
     .skillImage2
     {
         display: none;
@@ -222,7 +227,16 @@
     .skillImage
     {
         display: block;
-        width: 30vw;
+        width: 25vw;
+    }
+    .reactLogo2
+    {
+        width: 15vw;
+    }
+    .verLine
+    {
+        display: block;
+        margin: auto;
     }
     
 }
@@ -231,27 +245,35 @@
 
     .aboutTitle
     {
-        font-size: 50px;
+        font-size: 40px;
     }
     .aboutMeText
     {
-        font-size: 15px;
+        font-size: 13px;
+        font-family: Poppins, sans-serif;
+        padding:  2vw 5vw;
     }
     .portraitImage
     {
-        width: 15em;
+        width: 17em;
     }
     .content
     {
-        flex-basis: 30vw;
-    }
-    .imageContainer
-    {
-    }
-    .skillImage
-    {
-        width: 300px;
+        flex-basis: 10vw;
+        padding: 5vw;
     }
 
+    .skillImage
+    {
+        width: 250px;
+    }
+
+    .reactLogo2
+    {
+        width: 10vw;
+    }
+}
+
+@media screen and (min-width: 1440px){
 
 }

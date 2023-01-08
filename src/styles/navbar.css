@@ -15,4 +15,16 @@
           font-size: 1.2em;
         }
       }
+
+      @media (min-width:1440px) {
+        .nav-menu
+        {
+          font-size: 1em;
+        }
+        .logo
+        {
+          width: 6em;
+        }
+
+      }
    

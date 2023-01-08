@@ -12,6 +12,7 @@ function App() {
     <div fluid className="App  ">
       <Home />
       <About />
+      <ContactBar />
     </div>
   );
 }

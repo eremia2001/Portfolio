@@ -6,10 +6,9 @@ import '../styles/homeContainer.css';
 
 function Home() {
   return (
-    <div className="page Home">
+    <div className="page Home" id="home">
       <NavBar />
       <HeroSection />
-      <ContactBar />
       <img src={reactLogo} className="reactLogo" />
     </div>
   );

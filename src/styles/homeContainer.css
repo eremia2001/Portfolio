@@ -16,7 +16,7 @@
       }
       .bigTitle {
         margin: 0;
-        font-size: 14vw;
+        font-size: 13vw;
       }
       .bold {
         font-weight: bold;
@@ -129,6 +129,32 @@
             font-size: 1.5vw;
         }
     }
+
+    @media (min-width:1440px) {
+        .heroSection
+        {
+            padding: 5em;
+        }
+        .bigTitle
+        {
+            font-size: 5vw;
+        }
+        .title
+        {
+            font-size: 3.6vw;
+        }
+
+    }
+
+    @media (min-width:2560px) {
+
+        .heroSection
+        {
+            padding: 20em;
+        }
+
+    }
+
 
 
 
