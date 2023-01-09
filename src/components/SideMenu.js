@@ -39,7 +39,13 @@ function SideMenu(props) {
         >
           Leistungen
         </Nav.Link>
-        <Nav.Link className="side-menu">Kontakt</Nav.Link>
+        <Nav.Link
+          href="#contact"
+          className={props.page == 'contact' ? 'side-menu-active' : 'side-menu'}
+          name="contact"
+        >
+          Kontakt
+        </Nav.Link>
         <Nav.Item></Nav.Item>
       </Nav>
       <img src={vertLine} className="vertLine lineBot" />

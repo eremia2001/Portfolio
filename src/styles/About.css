@@ -283,5 +283,21 @@
 }
 
 @media screen and (min-width: 1440px){
+    .aboutMeText
+    {
+        font-size: 0.8vw;
+    }
+    .aboutTitle
+    {
+        font-size: 2.5vw;
+    }
+    .portraitImage
+    {
+        width: 15vw;
+    }
+    .skillImage
+    {
+        width: 13vw;
+    }
 
 }

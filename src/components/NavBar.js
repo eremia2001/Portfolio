@@ -1,7 +1,21 @@
-import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
+import {
+  Container,
+  Row,
+  Col,
+  Navbar,
+  Nav,
+  Offcanvas,
+  Button,
+  Form,
+  NavDropdown,
+} from 'react-bootstrap';
 import RifatLogo from '../media/Logo.png';
 import '../styles/navbar.css';
 import horLine from '../media/LineHorizontal.png';
+
+function handleSelect() {
+  console.log('Hallo welt');
+}
 
 function NavBar() {
   return (
@@ -11,26 +25,42 @@ function NavBar() {
           <Navbar.Brand>
             <img src={RifatLogo} className="logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="justify-content-end"
+
+          <Navbar.Toggle />
+          <Navbar.Offcanvas
+            id={`offcanvasNavbar-expand-sm`}
+            aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
+            placement="end"
+            className="offCanvas2"
+            data-bs-scroll="true"
+            data-bs-backdrop="false"
           >
-            <Nav className="navHeader">
-              <Nav.Link href="#about">
-                <p className="nav-menu">Über mich</p>
-              </Nav.Link>
-              <Nav.Link href="#projects">
-                <p className="nav-menu">Projekte</p>
-              </Nav.Link>
-              <Nav.Link href="#price">
-                <p className="nav-menu">Leistungen</p>
-              </Nav.Link>
-              <Nav.Link>
-                <p className="nav-menu">Kontakt</p>
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title
+                id={`offcanvasNavbarLabel-expand-sm`}
+                className="text-white"
+              >
+                Menü
+              </Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <Nav className="navHeader justify-content-end flex-grow-1 pe-3 ">
+                <Nav.Link href="#about">
+                  <p className="nav-menu">Über mich</p>
+                </Nav.Link>
+
+                <Nav.Link href="#projects">
+                  <p className="nav-menu">Projekte</p>
+                </Nav.Link>
+                <Nav.Link href="#price">
+                  <p className="nav-menu">Leistungen</p>
+                </Nav.Link>
+                <Nav.Link>
+                  <p className="nav-menu">Kontakt</p>
+                </Nav.Link>
+              </Nav>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
         </Container>
       </Navbar>
     </div>
@@ -38,3 +68,6 @@ function NavBar() {
 }
 
 export default NavBar;
+
+/*
+ */

@@ -12,10 +12,7 @@ function Projects() {
           <h1 className="title primaryColor">Projekte</h1>
           <h4 className="text-white">meine Zeitreise der Neugier</h4>
         </div>
-        <div className="cardElementContainer">
-          <CardElement />
-          <CardElement />
-        </div>
+        <div className="cardElementContainer"></div>
       </div>
       <img src={reactLogo} className=" reactLogo reactLogo2" />
     </div>

@@ -26,19 +26,35 @@
         justify-content:center;
         align-items: center;
     }
-    .nav:hover
-    {
-        background-color: red;
-    }
-
-    .side-menu-active
-    {
-        color: #41CAA9;
-    }
+ 
 
     .side-menu
     {
         color: #636E72;
+        transition: 0.1s;
+    }
+    .side-menu-active
+    {
+        color: #41CAA9;
+    }
+    .side-menu-active:hover
+    {
+        color: #41CAA9;
+        transform: scale(1.02);
+    }
+
+    .side-menu:hover
+    {
+        color: #3cbc9e;
+        transform: scale(1.09);
+    }
+    .side-menu:focus
+    {
+        color: #3cbc9e;
+    }
+    .side-menu-active:focus
+    {
+        color: #3cbc9e;
     }
 }
 @media screen and (min-width: 641px){ 

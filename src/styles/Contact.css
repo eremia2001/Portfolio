@@ -1,0 +1,11 @@
+.Contact
+{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactContainer
+{
+    flex: 1;
+}

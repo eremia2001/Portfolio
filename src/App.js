@@ -8,6 +8,7 @@ import Home from './context/Home';
 import About from './context/About';
 import Projects from './context/Projects';
 import Price from './context/Price';
+import Contact from './context/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ContactBar />
       <Projects />
       <Price />
+      <Contact />
     </div>
   );
 }

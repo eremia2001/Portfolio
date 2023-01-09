@@ -1,13 +1,25 @@
 .nav-menu {
     color: #41caa9;
     font-size: 2vw;
+    transition: 0.1s;
   }
   
   .NavContainer
   {
     padding: 1vh;
     position: relative;
+
   }
+  .nav-menu:hover
+  {
+    color: #2bffcd;
+    transform: scale(1.04);
+  }
+  .offCanvas2
+  {
+    background-color: #2d3436;
+  }
+
 
 
       /* hi-res laptops and desktops */
