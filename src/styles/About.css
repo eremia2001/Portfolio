@@ -61,7 +61,7 @@
     }
     .aboutMeText
     {
-        padding: 2vh 2vw; 
+        padding: 2vw 2vw; 
         font-family: Poppins;
         font-size: 3vw;
         text-align: center;
@@ -79,8 +79,8 @@
 
     .skillImage
     {
-        width: 65vw;
-        margin-bottom: 20vw;
+        width: 45vw;
+
 
     }
     .verLine

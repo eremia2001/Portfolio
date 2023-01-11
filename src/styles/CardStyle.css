@@ -1,57 +1,229 @@
-.cardContainer
-{
+@media screen and (min-width: 320px){ 
+
+
+    .cardContainer
+    {
     display: flex;
     flex-direction: row;
-    width: 40vw;
-    height: 20vw;
-    padding: 4em;
-    color: white;
     gap: 2vw;
+    flex-wrap: wrap;
+    color: white;
+    padding: 2em;
+    max-width: 70vw;
+    min-height: 40vw;
     box-sizing: border-box;
     background: linear-gradient(180deg, rgba(108, 119, 123, 0.325) 0%, rgba(45, 52, 54, 0) 100%);
     position: relative;
     border-radius: 60px;
     border: 1px solid;
     transition:0.5s;
-
-
-}
-.cardContainer:hover
-{
+    position: relative;
+    }
+    .ImgContainer2
+    {
+    
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40vw;
+    
+    }
+    .cardNumber
+    {
+        font-family: Roboto Mono;
+        font-size: 15vw;
+        position: absolute;
+        right: -2vw;
+        top: -8vw;
+        color: #636E72;
+        opacity: 75%;
+        
+    }
+    .cardContainer:hover
+    {
     transform: scale(1.05);
-}
-.contentContainer
-{
+    }
+    .contentContainer
+    {
     display: flex;
     flex-direction: column;
-}
-.cardImg
-{
-}
-.cardTitle
-{
-}
-.cardInfo
-{
-    font-size: 0.8vw;
-}
-.linkPage
-{
+    justify-content: flex-start;
+    margin-top: 1vw;
+    flex: 1;
+    flex-basis: 20vw;
+    }
+    .tagsContainer
+    {
+    position: absolute;
+    bottom: 0.5em;
+    }
+    .listContainer
+    {
+    display: flex;
+    gap: 4vw;
+    display: none;
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 300;
+    color:#B2BEC3 ;
+    font-size: 2vw;
+    }
+    .cardTitle
+    {
+        font-size: 6vw;
+    }
+    
+    
+    .cardInfo
+    {
+    font-size: 3vw;
+    }
+    .cardImg
+    {
+    width:50vw;
+    border-radius: 20px;
+    
+    }
+    .linkPage
+    {
     color: #41CAA9;
     margin: 0;
-}
-.linkPage a 
-{
+    font-size: 4vw;
+    }
+    .linkPage a 
+    {
     text-decoration: none;
     color: inherit;
-}
-.cardLine
-{
-    width: 7em;
-}
-.githubLink
-{
+    }
+    .cardLine
+    {
+    width: 20vw;
+    }
+    .githubLink
+    {
     position: absolute;
     right: 3em;
     bottom: 0.5em;
+    }
 }
+
+@media screen and (min-width: 481px){ 
+  
+
+
+}
+
+
+@media screen and (min-width: 641px){ 
+   .cardImg
+   {
+    width: 40vw;
+   }
+   .cardTitle
+   {
+    font-size: 5vw;
+   }
+   .linkPage
+   {
+    font-size: 3vw;
+   }
+
+   .cardInfo
+   {
+    font-size: 2.4vw;
+   }
+   .listContainer
+   {
+    display: none;
+   }
+   .cardContainer
+   {
+    max-width: 55vw;
+   }
+   .cardNumber
+   {
+    font-size: 13vw ;
+    right: -8vw;
+
+   }
+   }
+
+   
+@media screen and (min-width: 769px){ 
+
+    .cardTitle
+    {
+        font-size: 4vw;
+    }
+    .cardInfo
+    {
+        font-size: 2vw;
+    }
+    .linkPage
+    {
+        font-size: 2.5vw;
+    }
+    .cardImg
+    {
+        width: 35vw;
+    }
+    
+    }
+
+
+    @media screen and (min-width: 961px){
+        
+
+        .cardNumber
+        {
+            font-size: 12vw;
+        }
+        .cardImg{
+            width: 30vw;
+        }
+        .cardInfo
+        {
+            font-size: 1.6vw;
+        }
+        .cardTitle
+        {
+            font-size: 3vw;
+        }
+        .linkPage
+        {
+            font-size: 2vw;
+        }
+        .cardContainer
+        {
+            width:45vw;
+        }
+      }
+
+      
+@media screen and (min-width: 1024px){ 
+    .cardInfo
+    {
+        font-size: 1.4vw;
+    }
+    .contentContainer
+    {
+    }
+    .cardContainer
+    {
+        flex-wrap: nowrap;
+        width: 90vw;
+        min-height: 40vh;
+        align-items: center;
+    }
+
+    .cardImg
+    {
+        width: 20vw;
+            }
+
+
+}
+
+
+

@@ -9,7 +9,9 @@ function Contact() {
       <SideMenu page="contact" />
       <div className="contactContainer">
         <h1 className="title primaryColor">Kontakt</h1>
-        <h4 className="text-white">so könnt ihr mich erreichen</h4>
+        <h4 className="text-white biggerNormalText">
+          so könnt ihr mich erreichen
+        </h4>
       </div>
       <img src={reactLogo} className=" reactLogo" />
     </div>
