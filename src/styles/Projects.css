@@ -5,6 +5,7 @@
         margin-top: 12vw;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     .projectsTitle
     {
@@ -118,7 +119,30 @@
 {
     height: 50vw;
 }
+.item
+{
+    padding-left: 15vw;
+}
 
 
 }
 
+
+
+@media screen and (min-width: 1281px){ 
+
+.item
+{
+    padding-left: 16vw ;
+}
+
+}
+
+@media screen and (min-width: 1440px){ 
+
+    .item
+    {
+        padding-left: 23vw ;
+    }
+    
+    }

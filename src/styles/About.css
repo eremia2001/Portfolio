@@ -70,6 +70,7 @@
     {
         margin:  0;
         max-width: 47vw;
+        
     }
 
     .horLine2
@@ -207,7 +208,7 @@
     }
     .aboutMeText
     {
-        font-size: 1.2vw;
+        font-size: 1.5vw;
         padding: 2vh 3vw;
     }
     .aboutTitle

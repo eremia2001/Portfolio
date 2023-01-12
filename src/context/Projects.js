@@ -3,6 +3,24 @@ import '../styles/Projects.css';
 import reactLogo from '../media/reactLogo.png';
 import Carousel from 'react-bootstrap/Carousel';
 import CardElement from '../components/CardElement';
+import projectData from '../data/projectData.json';
+
+// hanlde Project Data
+// -> turns it into readable JSX , that can render on page
+const allProjects = projectData.map((element) => {
+  return (
+    <Carousel.Item className="item">
+      <CardElement
+        title={element.title}
+        info={element.info}
+        link={element.link}
+        img={element.img}
+        id={element.id}
+        className="cardItem"
+      />
+    </Carousel.Item>
+  );
+});
 
 function Projects() {
   return (
@@ -17,15 +35,7 @@ function Projects() {
         </div>
         <div className="cardElementContainer">
           <Carousel className="carosell w-100" indicators={false}>
-            <Carousel.Item className="item">
-              <CardElement className="cardItem" />
-            </Carousel.Item>
-            <Carousel.Item className="item">
-              <CardElement className="cardItem" />
-            </Carousel.Item>
-            <Carousel.Item className="item">
-              <CardElement className="cardItem" />
-            </Carousel.Item>
+            {allProjects}
           </Carousel>
         </div>
       </div>

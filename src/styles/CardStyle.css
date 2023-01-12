@@ -56,11 +56,11 @@
     .tagsContainer
     {
     position: absolute;
+    display: none;
     bottom: 0.5em;
     }
     .listContainer
     {
-    display: flex;
     gap: 4vw;
     display: none;
     margin: 0;
@@ -220,10 +220,160 @@
     .cardImg
     {
         width: 20vw;
-            }
+    }
+
+    .cardNumber
+    {
+        font-size: 10vw;
+        top: -7vw;
+        right: -4vw;
+    }
 
 
 }
 
 
+@media (min-width:1281px) {
+
+    .cardInfo
+    {
+        font-size: 1.3vw;
+    }
+
+    .cardContainer
+    {
+        width: 80vw;
+
+    }
+
+    .cardImg
+    {
+        width: 18vw;
+    }
+    .cardNumber
+    {
+        font-size:8vw ;
+        right: -5vw;
+        top: -5vw;
+
+    }
+}
+
+@media (min-width:1440px) {
+    .cardInfo
+    {
+        font-size: 1.1vw;
+    }
+
+    .cardContainer
+    {
+        width: 40vw;
+
+    }
+
+    .cardImg
+    {
+        width: 12vw;
+    }
+    .cardNumber
+    {
+        font-size:7vw ;
+        right: -4vw;
+        top: -4vw;
+
+    }
+    .cardTitle
+    {
+        font-size: 2.5em;
+        padding-bottom: 0.6vw;
+    }
+    
+    .linkPage
+    {
+        font-size: 1.5em;
+    }
+    .contentContainer
+    {
+        flex-basis: 8em;
+    }
+    .tagsContainer
+    {
+        display: flex;
+    }
+    .listContainer
+    {
+        display: flex;
+        font-size: 10px;
+    }
+    
+    .cardLine
+    {
+        width: 7vw;
+    }
+    .listContainer
+    {
+        font-size: 0.85vw;
+    }
+
+
+}
+@media (min-width:1601px) {
+
+    .cardInfo
+    {
+        font-size: 0.9vw;
+    }
+}
+
+
+
+@media screen and (min-width: 2000px){ 
+
+    .cardInfo
+    {
+        font-size: 0.9vw;
+    }
+
+    .cardContainer
+    {
+        width: 40vw;
+
+    }
+
+    .cardImg
+    {
+        width: 10vw;
+    }
+    .cardNumber
+    {
+        font-size:5vw ;
+        right: -2vw;
+        top: -4vw;
+
+    }
+    .cardTitle
+    {
+        font-size: 1.5vw;
+        padding-bottom: 0.6vw;
+    }
+    
+    .linkPage
+    {
+        font-size: 1.2vw;
+    }
+    .contentContainer
+    {
+        flex-basis: 10vw;
+    }
+    .tagsContainer
+    {
+        display: flex;
+    }
+    .listContainer
+    {
+        display: flex;
+        font-size: 1vw;
+    }
+    
+    }
 

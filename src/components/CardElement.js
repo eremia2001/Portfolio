@@ -5,29 +5,21 @@ import '../styles/CardStyle.css';
 import { Github } from 'react-bootstrap-icons';
 import Carousel from 'react-bootstrap/Carousel';
 
-function CardElement() {
+function CardElement(props) {
   return (
     <div className="cardContainer">
       <div className="ImgContainer2">
-        <img
-          src="https://picsum.photos/200
-"
-          className="cardImg"
-        />
+        <img src={props.img} className="cardImg" />
       </div>
       <div className="cardNumber">
-        <p>02</p>
+        <p>0{props.id}</p>
       </div>
       <div className="contentContainer">
-        <h2 className="cardTitle">Reileins</h2>
-        <p className="cardInfo">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At
-        </p>
+        <h2 className="cardTitle">{props.title}</h2>
+        <p className="cardInfo">{props.info}</p>
         <div>
           <h4 className="linkPage">
-            <a href="#home">Besuche die Webseite </a>
+            <a href={props.link}>Besuche die Webseite </a>
           </h4>
           <img src={horLine} className="cardLine" />
         </div>
