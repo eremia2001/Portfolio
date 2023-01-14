@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8483c2b.css",
-    "main.js": "/static/js/main.c0e9fedc.js",
+    "main.css": "/static/css/main.d85de0e0.css",
+    "main.js": "/static/js/main.a5be069d.js",
     "static/media/Portrait.jpeg": "/static/media/Portrait.035ba5936867fee244c7.jpeg",
     "static/media/ProjektImg.png": "/static/media/ProjektImg.f70c02a939dab35e8d3b.png",
+    "static/media/partyEmoji.png": "/static/media/partyEmoji.478d460480fdc673ad1b.png",
     "static/media/skillImage.png": "/static/media/skillImage.3e059450362aa86f5e3a.png",
     "static/media/skillImageVert.png": "/static/media/skillImageVert.8c10f32b33d0c4e0034e.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.6ff67e192cc977fa2773.png",
     "index.html": "/index.html",
-    "main.d8483c2b.css.map": "/static/css/main.d8483c2b.css.map",
-    "main.c0e9fedc.js.map": "/static/js/main.c0e9fedc.js.map"
+    "main.d85de0e0.css.map": "/static/css/main.d85de0e0.css.map",
+    "main.a5be069d.js.map": "/static/js/main.a5be069d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8483c2b.css",
-    "static/js/main.c0e9fedc.js"
+    "static/css/main.d85de0e0.css",
+    "static/js/main.a5be069d.js"
   ]
 }
