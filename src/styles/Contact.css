@@ -1,11 +1,145 @@
-.Contact
-{
-    margin-top: 10vw;
-    display: flex;
-    flex-direction: row;
+@media screen and (min-width: 320px){ 
+    .Contact
+    {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .contactContainer
+    {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formControl
+    {
+        margin-top: 8vw;
+    }
+
+    .formContainer
+    {
+        margin-top: 15vw;
+        padding: 3vw;
+    }
+
+
+    .formField
+    {
+        background-color: #363F42;
+        box-shadow: 5px 5px 4px rgba(9, 9, 9, 25%) ;
+        font-family: Roboto Mono;
+        border: none;
+        color: #B2BEC3;
+        height: 10vw;
+    }
+    .formField:focus
+    {
+        background-color: #363F42;
+        color: #B2BEC3;
+        border: none;
+    }
+    .formText
+    {
+        color:#B2BEC3 ;
+        font-family: Roboto;
+        font-weight: 300;
+    }
+
+
+    .button
+    {
+        background-color:transparent;
+        border: 1px solid #B2BEC3 ;
+        font-size: 5vw;
+        transition: 0.8s;
+    }
+    .formMessage
+    {
+        height: 30vw;
+    }
 }
 
-.contactContainer
-{
-    flex: 1;
+@media screen and (min-width: 500px){ 
+    .formContainer
+    {
+        margin-top: 4em;
+        padding: 1em;
+    }
+    .formControl
+    {
+        margin-top: 2.5em;
+    }
+
+    .formField
+    {
+        height: 3.5em;
+    }
+    .formMessage
+    {
+        height: 9em;
+    }
+    .button
+    {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 641px){ 
+
+    .formContainer
+    {
+        padding: 3em;
+        margin-top: 1em;
+    }
+
+}
+
+
+@media screen and (min-width: 961px){
+
+    .formContainer
+    {
+        padding: 0 4em;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+
+    .formContainer
+    {
+        padding: 3em 25em;
+        margin-top: 1em;
+    }
+    .formField
+    {
+        box-shadow: 10px 10px 6px rgba(9, 9, 9, 25%) ;
+        transition: 0.7s;
+    }
+    .formField:hover
+    {
+        transform: scale(1.022);
+    }
+
+    .contactContainer
+    {
+        margin-right: 8em;
+    }
+
+
+}
+
+@media screen and (min-width: 2000px){
+
+    .formContainer
+    {
+        padding: 15em 35em;
+        margin-top: 1em;
+     
+    }
+
 }
