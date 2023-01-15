@@ -3,7 +3,9 @@ import '../styles/buttonStyle.css';
 function ActionButton() {
   return (
     <div>
-      <button className="actionButton"> Kontakt</button>
+      <a href="#contact">
+        <button className="actionButton">Kontakt</button>
+      </a>
     </div>
   );
 }

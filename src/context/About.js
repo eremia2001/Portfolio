@@ -28,15 +28,19 @@ function About() {
           </div>
           <div className="textContainer">
             <p className="text-white aboutMeText">
-              Ich bin Eremiya Rifat, ein <strong>Informatikstudent</strong> an
-              der Martin-Luther-Universität in Halle. Ich habe mich auf die
-              Entwicklung von Websites spezialisiert und verfüge über Kenntnisse
-              in verschiedenen Technologien wie WordPress, JavaScript, HTML,
-              CSS, React und Bootstrap. Ich habe Erfahrung darin, Websites zu
-              erstellen, die sowohl attraktiv als auch benutzerfreundlich sind.
-              Ich bin immer bestrebt, meine Fähigkeiten zu verbessern und neue
-              Herausforderungen anzunehmen, um in meiner Karriere als
-              Webentwickler voranzukommen.
+              Ich bin Eremiya Rifat, ein erfahrener Webentwickler aus{' '}
+              <strong>Halle (Saale)</strong> und Informatikstudent an der
+              Martin-Luther-Universität. Ich habe mich auf die professionelle
+              Entwicklung von Websites spezialisiert und verfüge über fundierte
+              Kenntnisse in verschiedenen Technologien wie WordPress,
+              JavaScript, HTML, CSS, React und Bootstrap. Mit meiner Erfahrung
+              in der Erstellung von optisch ansprechenden und
+              benutzerfreundlichen Websites, bin ich der ideale Partner für
+              Unternehmen und Organisationen in Halle und Umgebung, die eine
+              erstklassige Online-Präsenz wünschen. Ich bin stets bemüht, meine
+              Fähigkeiten und Kenntnisse zu verbessern und nehme gerne neue
+              Herausforderungen an, um meine Karriere als erfolgreicher
+              Webentwickler in Halle voranzutreiben.
             </p>
           </div>
           <img src={skillImage} className="skillImage" />

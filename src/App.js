@@ -7,10 +7,17 @@ import Projects from './context/Projects';
 import Contact from './context/Contact';
 import FooterTop from './context/Footer-Top';
 import Footer from './context/Footer';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div fluid className="App  ">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Eremiya Rifat</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Webentwickler in Halle" />
+      </Helmet>
       <Home />
       <About />
       <Projects />

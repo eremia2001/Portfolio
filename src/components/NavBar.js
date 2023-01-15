@@ -10,6 +10,7 @@ import {
   NavDropdown,
 } from 'react-bootstrap';
 import RifatLogo from '../media/Logo.png';
+
 import '../styles/navbar.css';
 import horLine from '../media/LineHorizontal.png';
 
@@ -19,7 +20,9 @@ function NavBar() {
       <Navbar variant="dark" expand="lg">
         <Container fluid className="NavContainer">
           <Navbar.Brand>
-            <img src={RifatLogo} className="logo" />
+            <a href="#home">
+              <img src={RifatLogo} className="logo" />
+            </a>
           </Navbar.Brand>
 
           <Navbar.Toggle />
@@ -48,7 +51,7 @@ function NavBar() {
                 <Nav.Link href="#projects">
                   <p className="nav-menu">Projekte</p>
                 </Nav.Link>
-                <Nav.Link>
+                <Nav.Link href="#contact">
                   <p className="nav-menu">Kontakt</p>
                 </Nav.Link>
               </Nav>
