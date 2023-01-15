@@ -50,6 +50,7 @@
         font-size: 10vw;;
         padding-top: 1em;
         gap: 0.2em;
+        font-family: 'Poppins', sans-serif;
     }
     .titleContainer
     {
@@ -58,11 +59,14 @@
     .aboutTitle
     {
         font-size: 15vw;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
     }
     .aboutMeText
     {
         padding: 2vw 2vw; 
-        font-family: Poppins;
+        font-family: 'Lato',sans-serif;
+        font-weight: 300;
         font-size: 3vw;
         text-align: center;
     }
@@ -286,7 +290,8 @@
 @media screen and (min-width: 1440px){
     .aboutMeText
     {
-        font-size: 0.8vw;
+        font-size: 1em;
+        padding: 2vw 3vw;
     }
     .aboutTitle
     {
@@ -301,4 +306,11 @@
         width: 13vw;
     }
 
+}
+
+@media screen and (min-width: 1440px){
+    .aboutMeText
+    {
+        font-size: 1.2em;
+    }
 }

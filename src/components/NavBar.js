@@ -13,10 +13,6 @@ import RifatLogo from '../media/Logo.png';
 import '../styles/navbar.css';
 import horLine from '../media/LineHorizontal.png';
 
-function handleSelect() {
-  console.log('Hallo welt');
-}
-
 function NavBar() {
   return (
     <div>
@@ -51,9 +47,6 @@ function NavBar() {
 
                 <Nav.Link href="#projects">
                   <p className="nav-menu">Projekte</p>
-                </Nav.Link>
-                <Nav.Link href="#price">
-                  <p className="nav-menu">Leistungen</p>
                 </Nav.Link>
                 <Nav.Link>
                   <p className="nav-menu">Kontakt</p>

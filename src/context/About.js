@@ -28,16 +28,15 @@ function About() {
           </div>
           <div className="textContainer">
             <p className="text-white aboutMeText">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam
-              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
+              Ich bin Eremiya Rifat, ein <strong>Informatikstudent</strong> an
+              der Martin-Luther-Universität in Halle. Ich habe mich auf die
+              Entwicklung von Websites spezialisiert und verfüge über Kenntnisse
+              in verschiedenen Technologien wie WordPress, JavaScript, HTML,
+              CSS, React und Bootstrap. Ich habe Erfahrung darin, Websites zu
+              erstellen, die sowohl attraktiv als auch benutzerfreundlich sind.
+              Ich bin immer bestrebt, meine Fähigkeiten zu verbessern und neue
+              Herausforderungen anzunehmen, um in meiner Karriere als
+              Webentwickler voranzukommen.
             </p>
           </div>
           <img src={skillImage} className="skillImage" />

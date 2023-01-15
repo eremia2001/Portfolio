@@ -13,7 +13,15 @@
         left: 0;
         top: 0;
         flex: 1;
+        padding: 1em;
     }
+    .title2
+    {
+        font-family: 'Roboto',sans-serif;
+        font-weight: 600;
+    }
+
+
     
     .projectContainer
     {

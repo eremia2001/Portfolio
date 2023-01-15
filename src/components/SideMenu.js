@@ -12,7 +12,7 @@ function SideMenu(props) {
       <img src={vertLine} className="vertLine lineTop" />
       <Nav className="flex-column nav">
         <Nav.Link onClick={handleClick} className="side-menu" href="#home">
-          Home
+          Startseite
         </Nav.Link>
         <Nav.Link
           onClick={handleClick}
@@ -32,13 +32,7 @@ function SideMenu(props) {
         >
           Projekte
         </Nav.Link>
-        <Nav.Link
-          href="#price"
-          className={props.page == 'price' ? 'side-menu-active' : 'side-menu'}
-          name="price"
-        >
-          Leistungen
-        </Nav.Link>
+
         <Nav.Link
           href="#contact"
           className={props.page == 'contact' ? 'side-menu-active' : 'side-menu'}

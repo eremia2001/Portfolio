@@ -3,7 +3,6 @@ import '../styles/Price.css';
 import reactLogo from '../media/reactLogo.png';
 import '../styles/Contact.css';
 import Form from 'react-bootstrap/Form';
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { Button, Container } from 'react-bootstrap';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
@@ -44,10 +43,12 @@ function Contact() {
     <div className="page Contact" id="contact">
       <SideMenu page="contact" />
       <div className="contactContainer">
-        <h1 className="title primaryColor">Kontakt</h1>
-        <h4 className="text-white biggerNormalText">
-          so könnt ihr mich erreichen
-        </h4>
+        <div className="contactTitle">
+          <h1 className="title primaryColor title2">Kontakt</h1>
+          <h4 className="text-white biggerNormalText">
+            so könnt ihr mich erreichen
+          </h4>
+        </div>
         <PopUp
           className="popUp"
           showPop={emailSend}

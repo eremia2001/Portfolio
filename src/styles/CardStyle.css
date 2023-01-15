@@ -96,6 +96,10 @@
     text-decoration: none;
     color: inherit;
     }
+    .linkPage a:hover
+    {
+        color: #10f2bd;
+    }
     .cardLine
     {
     width: 20vw;
@@ -331,13 +335,13 @@
 
     .cardInfo
     {
-        font-size: 0.9vw;
+        font-size: 0.8vw;
     }
 
     .cardContainer
     {
         width: 40vw;
-
+        min-height: 30em;
     }
 
     .cardImg
@@ -354,7 +358,7 @@
     .cardTitle
     {
         font-size: 1.5vw;
-        padding-bottom: 0.6vw;
+        padding-bottom: 0.3vw;
     }
     
     .linkPage
@@ -368,11 +372,12 @@
     .tagsContainer
     {
         display: flex;
+        
     }
     .listContainer
     {
         display: flex;
-        font-size: 1vw;
+        font-size: 1.5em;
     }
     
     }

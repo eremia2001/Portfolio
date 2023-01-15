@@ -3,7 +3,7 @@ import { Github, Instagram, EnvelopeAtFill } from 'react-bootstrap-icons';
 import '../styles/contactBar.css';
 function ContactBar() {
   return (
-    <div className="socialMediaContainer">
+    <div className="socialMediaContainer" id="socialMediaBar">
       <div className="socialIconContainer">
         <Github size={45} color="#B2BEC3" />
         <Instagram size={45} color="#B2BEC3" />

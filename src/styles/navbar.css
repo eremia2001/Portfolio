@@ -1,7 +1,9 @@
 .nav-menu {
     color: #41caa9;
     font-size: 2vw;
-    transition: 0.1s;
+    transition: 0.2s;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
   }
   
   .NavContainer
@@ -13,12 +15,12 @@
   .nav-menu:hover
   {
     color: #2bffcd;
-    transform: scale(1.04);
   }
   .offCanvas2
   {
     background-color: #2d3436;
   }
+
 
 
 
@@ -38,6 +40,18 @@
         .logo
         {
           width: 6em;
+        }
+
+      }
+   
+      @media (min-width:2000px) {
+        .nav-menu
+        {
+          font-size: 1.25em;
+        }
+        .logo
+        {
+          width: 7em;
         }
 
       }
