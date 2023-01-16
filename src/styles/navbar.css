@@ -1,25 +1,61 @@
-.nav-menu {
-    color: #41caa9;
-    font-size: 2vw;
-    transition: 0.2s;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 400;
-  }
-  
-  .NavContainer
-  {
-    padding: 1vh;
-    position: relative;
+@media(min-width:320px)
+{
 
-  }
-  .nav-menu:hover
-  {
-    color: #2bffcd;
-  }
-  .offCanvas2
-  {
-    background-color: #2d3436;
-  }
+  .nav-menu {
+      color: #41caa9;
+      font-size: 2vw;
+      transition: 0.2s;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 400;
+    }
+    
+    .NavContainer
+    {
+      padding: 1vh;
+      position: relative;
+  
+    }
+    .nav-menu:hover
+    {
+      color: #2bffcd;
+    }
+    .offCanvas2
+    {
+      background-color: #2d3436;
+    }
+   
+    .navHeader
+    {
+      display: none;
+    }
+    .hamburgerMenu
+    {
+      font-size: 2.5em;
+      color: white;
+      cursor: pointer;
+    }
+    .phoneMenuBody a
+    {
+      text-decoration: none;
+      color: inherit;
+    }
+    .phoneMenu
+    {
+      background-color: #323738;
+      color: white;
+    }
+ 
+    .phoneMenu a 
+    {
+      font-size: 2em;
+    }
+    .phoneMenuLinks
+    {
+      font-size: 5vw;
+    }
+
+
+}
 
 
 
@@ -29,6 +65,14 @@
         .nav-menu
         {
           font-size: 1.2em;
+        }
+        .hamburgerMenu
+        {
+          display: none;
+        }
+        .navHeader
+        {
+          display: flex;
         }
       }
 
