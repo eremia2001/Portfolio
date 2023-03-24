@@ -27,10 +27,9 @@ function CardElement(props) {
 
       <div className="tagsContainer">
         <ul className="listContainer">
-          <li>React</li>
-          <li>JavaScript</li>
-          <li>Styled Components</li>
-          <li>CSS</li>
+          {props.langList.map((lang) => (
+            <li>{lang}</li>
+          ))}
         </ul>
       </div>
     </div>

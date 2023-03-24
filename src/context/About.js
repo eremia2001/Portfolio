@@ -28,19 +28,20 @@ function About() {
           </div>
           <div className="textContainer">
             <p className="text-white aboutMeText">
-              Ich bin Eremiya Rifat, ein erfahrener Webentwickler aus{' '}
-              <strong>Halle (Saale)</strong> und Informatikstudent an der
-              Martin-Luther-Universität. Ich habe mich auf die professionelle
-              Entwicklung von Websites spezialisiert und verfüge über fundierte
-              Kenntnisse in verschiedenen Technologien wie WordPress,
-              JavaScript, HTML, CSS, React und Bootstrap. Mit meiner Erfahrung
-              in der Erstellung von optisch ansprechenden und
-              benutzerfreundlichen Websites, bin ich der ideale Partner für
-              Unternehmen und Organisationen in Halle und Umgebung, die eine
-              erstklassige Online-Präsenz wünschen. Ich bin stets bemüht, meine
-              Fähigkeiten und Kenntnisse zu verbessern und nehme gerne neue
-              Herausforderungen an, um meine Karriere als erfolgreicher
-              Webentwickler in Halle voranzutreiben.
+              Ich bin Eremiya Rifat, ein 22 jähriger Informatikstudent an der
+              Martin-Luther-Universität. Ich habe mich neben dem Studium auf die
+              professionelle Entwicklung von Websites spezialisiert und verfüge
+              über fundierte Kenntnisse in verschiedenen Technologien wie JS
+              JavaScript, HTML, CSS, ReactJS, NextJS sowie dem CSS-Framework
+              Tailwind und Bootstrap. Diese Kenntnisse konnte ich bereits in
+              eigenen Projekten erfolgreich anwenden, einige davon sind auch auf
+              meiner Webseite zu finden. Ich suche nun nach einer Möglichkeit,
+              meine erlernten Fähigkeiten in der Wirtschaft einzubringen und
+              wertvolle Erfahrungen zu sammeln. Dabei bin ich motiviert,
+              teamfähig und bringe eine große Lernbereitschaft mit. Wenn Sie auf
+              der Suche nach einem engagierten und kompetenten Werkstudenten im
+              Bereich der Webentwicklung sind, freue ich mich darauf, Sie
+              kennenzulernen."
             </p>
           </div>
           <img src={skillImage} className="skillImage" />

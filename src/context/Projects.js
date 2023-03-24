@@ -16,6 +16,7 @@ const allProjects = projectData.map((element) => {
         link={element.link}
         img={element.img}
         id={element.id}
+        langList={element.langList}
         className="cardItem"
       />
     </Carousel.Item>
